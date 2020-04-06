@@ -8,10 +8,11 @@ class Owner
     # binding.pry
     @species = species
     @@all << self
+    @pets = {:dogs => [], :cats => []}
   end
   
   def say_species(species)
-    puts "I am a #{@owner.species}."
+    return "I am a #{@species}."
   end
   
   def self.all 
