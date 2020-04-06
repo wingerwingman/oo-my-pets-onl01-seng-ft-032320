@@ -1,8 +1,7 @@
 class Owner
   attr_accessor :owner, :name
-  def initialize(owner, name)
+  def initialize(owner)
     @owner = owner 
-    @name = name
   end
   
   # def name(name)
