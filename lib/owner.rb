@@ -25,6 +25,10 @@ class Owner
     end
   end
   
+  def buy_cat
+    @cats << cats
+  end
+  
   def say_species
     "I am a #{self.species}."
   end
