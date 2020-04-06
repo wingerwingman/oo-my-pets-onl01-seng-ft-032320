@@ -11,7 +11,7 @@ class Owner
   end
   
   def say_species(species)
-    puts "I am a #{self.species}."
+    puts "I am a #{@owner.species}."
   end
   
   def self.all 
