@@ -7,7 +7,7 @@ class Owner
   def initialize(name)
     # binding.pry
     @name = name
-    @species = species
+    @species = "human"
     @@all << self
     @pets = {:dogs => [], :cats => []}
   end
