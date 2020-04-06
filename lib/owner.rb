@@ -23,7 +23,7 @@ class Owner
     Dog.all.select do |dog|
       dog.owner == self
     end
-
+  end
   
   def say_species
     "I am a #{self.species}."
