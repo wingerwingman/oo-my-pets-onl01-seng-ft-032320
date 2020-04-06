@@ -12,6 +12,10 @@ class Owner
     @dogs = []
     @cats = []
   end
+  
+  def self.cats
+    @cats = cats
+  end
 
   
   def say_species
