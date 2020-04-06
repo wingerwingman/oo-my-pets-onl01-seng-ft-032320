@@ -7,6 +7,7 @@ class Cat
     @name = name
     @mood = "nervous"
     @owner = owner
+    @@all << self
   end
   
   def self.all 
