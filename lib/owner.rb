@@ -65,7 +65,7 @@ class Owner
   
   def list_pets
     self.cats.select do |cat|
-      cat
+      "I have #{owner.cats.count} cat(s), and #
     end
     self.dogs.select do |dog|
       dog 
