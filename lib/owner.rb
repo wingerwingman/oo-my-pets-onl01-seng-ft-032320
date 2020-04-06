@@ -4,7 +4,7 @@ class Owner
     @owner = owner 
   end
   
-  def name
-    self.name = name
+  def name(name)
+    name = name
   end
 end
