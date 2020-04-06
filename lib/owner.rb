@@ -19,7 +19,7 @@ class Owner
   end
   
   def count
-    @@all.lenght 
+    @@all.lenght -1
   end 
   
   def reset_all 
