@@ -25,11 +25,11 @@ class Owner
   end
   
   def count
-    @@all.lenght -1
+    @@all.size
   end 
   
   def reset_all 
-    @@all = []
+    @@all.clear
   end
   
 end
