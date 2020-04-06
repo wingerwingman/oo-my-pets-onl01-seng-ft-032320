@@ -13,7 +13,7 @@ class Owner
     @cats = []
   end
   
-  def self.cats
+  def cats
     binding.pry
     # @cats = cats
   end
