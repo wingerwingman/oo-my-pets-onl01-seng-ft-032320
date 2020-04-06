@@ -15,7 +15,7 @@ class Owner
   
   def self.cats
     binding.pry
-    @cats = cats
+    # @cats = cats
   end
 
   
