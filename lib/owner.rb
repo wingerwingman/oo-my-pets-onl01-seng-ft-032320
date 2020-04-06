@@ -11,10 +11,10 @@ class Owner
     @pets = {:dogs => [], :cats => []}
   end
   
-  def name(name)
-    binding.pry
-    @name = name
-  end
+  # def name(name)
+  #   binding.pry
+  #   @name = name
+  # end
   
   def say_species(species)
     return "I am a #{@species}."
