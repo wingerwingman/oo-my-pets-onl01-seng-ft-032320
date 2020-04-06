@@ -18,4 +18,12 @@ class Owner
     @@all
   end
   
+  def count
+    @@all.lenght 
+  end 
+  
+  def reset_all 
+    @@all.delete 
+  end
+  
 end
