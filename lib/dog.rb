@@ -1,6 +1,6 @@
 class Dog
   attr_accessor :dogs 
-  def dogs(dogs)
+  def initialize(dogs)
     @dogs = dogs 
   end
 end
