@@ -5,6 +5,6 @@ class Owner
   end
   
   def name(name)
-    @name = name
+    self.owner.name = name
   end
 end
