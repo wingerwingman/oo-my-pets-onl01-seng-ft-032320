@@ -63,6 +63,15 @@ class Owner
      end
   end
   
+  def list_pets
+    self.cats.select do |cat|
+      cat
+    end
+    self.dogs.select do |dog|
+      dog 
+    end
+  end
+  
   def say_species
     "I am a #{self.species}."
   end
