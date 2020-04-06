@@ -33,6 +33,9 @@ class Owner
     Dog.new(name, self)
   end
   
+  def feed_cats
+    self.cats.each {|cat| cat.mood = "happy"}
+  
   def say_species
     "I am a #{self.species}."
   end
