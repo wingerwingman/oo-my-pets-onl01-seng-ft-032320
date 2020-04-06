@@ -1,11 +1,12 @@
 require 'pry'
 class Owner
-  attr_reader :species
-  attr_accessor :name, :pets 
+  attr_reader :species, :name
+  attr_accessor :cats, :dogs
   
   @@all = []
-  def initialize(species)
+  def initialize(name)
     # binding.pry
+    @name = name
     @species = species
     @@all << self
     @pets = {:dogs => [], :cats => []}
