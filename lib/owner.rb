@@ -64,12 +64,7 @@ class Owner
   end
   
   def list_pets
-    self.cats.select do |cat|
-      "I have #{owner.cats.count} cat(s), and #
-    end
-    self.dogs.select do |dog|
-      dog 
-    end
+      "I have #{owner.cats.count} cat(s), and #{self.cats.count} cat(s)."
   end
   
   def say_species
