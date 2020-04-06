@@ -26,7 +26,7 @@ class Owner
   end
   
   def buy_cat
-    @cats << cats
+    @cats << Cat
   end
   
   def say_species
