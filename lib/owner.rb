@@ -14,8 +14,9 @@ class Owner
   end
   
   def cats
-    binding.pry
-    # @cats = cats
+    Dog.all.select do |dog|
+      dog.owner == self
+    end
   end
 
   
