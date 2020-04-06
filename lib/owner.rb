@@ -23,7 +23,7 @@ class Owner
   end 
   
   def reset_all 
-    @@all.delete 
+    @@all = 0 
   end
   
 end
