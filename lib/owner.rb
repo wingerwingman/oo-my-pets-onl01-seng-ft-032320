@@ -25,8 +25,8 @@ class Owner
     end
   end
   
-  def buy_cat
-    @cats << Cat
+  def buy_cat(name)
+    Cat.new (name, self)
   end
   
   def say_species
