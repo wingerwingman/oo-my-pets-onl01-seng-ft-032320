@@ -1,3 +1,6 @@
 class Dog
-  # code goes here
+  attr_accessor :dogs 
+  def dogs(dogs)
+    @dogs = dogs 
+  end
 end
